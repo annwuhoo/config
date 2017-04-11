@@ -1,9 +1,12 @@
-[user]
-	name = Ann Wu
-	email = wuyuanchih@gmail.com
+[remote "origin"]
+   receivepack = git receive-pack
 
-[credential]
-	helper = osxkeychain
+[core]
+   askpass = git-gui--askpass
+
+[user]
+	name = annwuhoo
+	email = wuyuanchih@gmail.com
 
 [color "branch"]
    current = yellow bold
