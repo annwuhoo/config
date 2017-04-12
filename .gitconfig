@@ -3,7 +3,6 @@
 
 [core]
     askpass = git-gui--askpass
-    pager = less -R
 
 [user]
 	name = annwuhoo

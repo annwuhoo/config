@@ -3,6 +3,9 @@
 "       Glenn Ko
 "       http://www.glennko.com - giko@illinois.edu
 "
+"       Ann Wu
+"       ywu77@illinois.edu
+"
 " Maintainer: 
 "       Amir Salihefendic
 "       http://amix.dk - amix@amix.dk
@@ -123,6 +126,7 @@ set tm=500
 " Show line numbers
 set number
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -160,7 +164,7 @@ set noswapfile
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+set noexpandtab "Instead of expandtab - I like tabs
 
 " Be smart when using tabs ;)
 set smarttab
@@ -193,6 +197,9 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
+
+" Set automatic text wrap to be 100 chars wide (when using gqq)
+set tw=100
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
@@ -241,6 +248,8 @@ autocmd BufReadPost *
 " Remember info about open buffers on close
 set viminfo^=%
 
+" Highlight the current active tab
+hi TabLineSel ctermfg=White ctermbg=DarkCyan
 
 """"""""""""""""""""""""""""""
 " => Status line

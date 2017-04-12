@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/yuanchihwu/Desktop/Glenn/agibbscv'
-let g:netrw_dirhist_2='/Users/yuanchihwu/Desktop/Glenn/agibbscv/mrfstereo'
-let g:netrw_dirhist_3='/Users/yuanchihwu/Desktop/Glenn/agibbscv/mrfstereo/results_tsukuba'
+let g:netrw_dirhist_1='/home/ywu77/agibbscv/binary'
+let g:netrw_dirhist_2='/home/ywu77/agibbscv/scripts'
+let g:netrw_dirhist_3='/home/ywu77/agibbscv'
 let g:netrw_dirhist_4='/home/ywu77/agibbscv/MRF2.2'
 let g:netrw_dirhist_5='/home/ywu77/agibbscv'
-let g:netrw_dirhist_6='/home/ywu77/agibbscv/MRF2.2'
+let g:netrw_dirhist_6='/home/ywu77/agibbscv/scripts'
